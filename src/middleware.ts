@@ -6,7 +6,7 @@ export function middleware(request: NextRequest) {
 
   if (!token && token == undefined) {
     // Unauthenticated user: Redirect to /mp/login unless already there
-    if (!url.pathname.startsWith("/mp/login")) {
+    if (!url.pathname?.startsWith("/mp/login")) {
       return NextResponse.redirect(new URL("/mp/login", url.origin));
     }
     return NextResponse.next();

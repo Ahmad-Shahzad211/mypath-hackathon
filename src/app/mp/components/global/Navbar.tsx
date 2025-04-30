@@ -12,7 +12,7 @@ const Navbar = () => {
   const path = usePathname();
   const {setNewChat, setFetchChat, setSessionID} = useChatbotStore();
   const {dark, setDark} = useMainAppStore();
-  if (path.match("/mp/login")) return null;
+  if (path?.match("mp/login")) return null;
   const toggleDarkMode = () => setDark(!dark);
   const handleLogoClick = () => {
     setNewChat(true);

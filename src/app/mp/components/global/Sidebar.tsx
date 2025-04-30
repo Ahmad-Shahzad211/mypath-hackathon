@@ -18,7 +18,7 @@ const Sidebar = () => {
   const width = useWindowSize();
 
   // Don't show sidebar on Login
-  if (pathname.includes("login")) return null;
+  if (pathname?.includes("login")) return null;
 
   // Toggle drawer for mobile
   const handleDrawerToggle = () => {

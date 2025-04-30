@@ -13,7 +13,7 @@ import {useSearchParams} from "next/navigation";
 // Top component of support
 // ----------------------
 const STopComponent = () => {
-  const param = useSearchParams().get("get") || "";
+  const param = useSearchParams()?.get("get") || "";
 
   return (
     <>

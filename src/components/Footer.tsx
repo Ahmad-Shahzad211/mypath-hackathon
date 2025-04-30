@@ -10,7 +10,7 @@ import logoWhite from '@/assets/images/Logo/logoWhite.svg'
 export default function Footer() {
   const path = usePathname()
 
-  if (path.includes("mp")) return null
+  if (path?.includes("mp")) return null
 
   return (
     <footer className="bg-gradient-to-t from-dark-logo-primary-gradient to-dark-logo-primary md:mx-7 rounded-md text-white mt-16 md:mb-5 mb-0 " 

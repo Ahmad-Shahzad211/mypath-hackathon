@@ -8,7 +8,7 @@ import Button from "./Button/button";
 export default function Navbar() {
   const path = usePathname();
 
-  if (path.includes("mp")) return null;
+  if (path?.includes("mp")) return null;
 
   return (
     <div className="backdrop-blur-md bg-white/30 md:px-8 px-5 py-2 sticky top-0 left-0 right-0 mx-auto w-full transition-all duration-400 z-10">
