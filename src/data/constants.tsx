@@ -37,9 +37,21 @@ export const NavItems = [
     label: "Features",
     href: "/features",
   },
+  // {
+  //   label: "Demos",
+  //   href: "/#demos",
+  // },
+  // {
+  //   label: "Testimonials",
+  //   href: "/#testimonial",
+  // },
+  // {
+  //   label: "Prompts",
+  //   href: "/#prompts",
+  // },
   {
     label: "Pricing",
-    href: "/redirect",
+    href: "/pricing",
   },
   {
     label: "Blogs",
@@ -47,7 +59,7 @@ export const NavItems = [
   },
   {
     label: "Meet Our Team",
-    href: "/#team",
+    href: "/team",
   },
 ];
 
@@ -115,7 +127,7 @@ export const AboutHeroContent = {
       name: "Client 8",
     },
   ],
-};
+};  
 
 export const featureContent = {
   featureTitle: "Features",
@@ -206,11 +218,38 @@ export const AboutContent = {
   mainHeading: "From Classroom to Career, MyPath is Your Guide",
   subHeading:
     "MyPath is the world's first AI-powered unified, personalized learning platform made for students to learn, connect, and grow. Whether you want to study smarter, make friends, build a resume, find jobs, or discover local events, MyPath has it all in one place.",
-  // buttonText: "Learn More",
+  buttonText: "Learn More",
 };
-
+export const testimonial = {
+  
+    title: "Testimonials",
+    mainHeading: "What Our Users Say",
+    subHeading:
+      "Our users are our best advocates. Here's what they have to say about their experience with MyPath.",
+    testimonials: [
+      {
+        name: "John Doe",
+        feedback:
+          "MyPath has transformed my learning experience. The personalized approach is a game-changer!",
+        role: "Student",
+      },
+      {
+        name: "Jane Smith",
+        feedback:
+          "The AI-powered features are incredibly helpful. I can't imagine studying without MyPath!",
+        role: "Student",
+      },
+      {
+        name: "Alice Johnson",
+        feedback:
+          "MyPath has made studying so much easier and more enjoyable. Highly recommend it to everyone!",
+        role: "Student",
+      },
+    ],
+};
 export const OurTeam = {
-  title: "Our Core Team",
+  Title: "Team",
+  mainHeading: "Our Core Team",
   subTitle:
     "At our core, there is no Iron Man's nuclear reactor. These are the developers & designers whose hard work of day & night drives this AI Vision.",
   team: [
@@ -239,7 +278,32 @@ export const quickLinks = [
     href: "#",
   },
 ];
-
+export const prompts = [
+  {
+    prompt: "What is AI?",
+    models: {
+      ChatGPT: "AI stands for Artificial Intelligence. It refers to machines that mimic human intelligence.",
+      Gemini: "Artificial Intelligence is a field of study focused on building smart machines.",
+      Claude: "AI is the simulation of human intelligence by machines.",
+    },
+  },
+  {
+    prompt: "How does photosynthesis work?",
+    models: {
+      ChatGPT: "Photosynthesis is a process where plants convert sunlight into energy.",
+      Gemini: "It’s the mechanism by which green plants produce glucose using sunlight and CO2.",
+      Claude: "A natural process in which chlorophyll helps plants make food using light.",
+    },
+  },
+  {
+    prompt: "Explain quantum computing.",
+    models: {
+      ChatGPT: "Quantum computing uses qubits to perform computations in multiple states simultaneously.",
+      Gemini: "Unlike classical bits, quantum computers use qubits that can be 0 and 1 at once.",
+      Claude: "A powerful type of computing that leverages quantum physics for faster processing.",
+    },
+  },
+];
 export const pricingPlans = [
   {
     title: "Free",
@@ -262,6 +326,41 @@ export const pricingPlans = [
     buttonText: "Choose Basic",
   },
 ];
+export const competitors = [
+  {
+    name: "myPath",
+    pricing: "$5/mo",
+    speed: "Fast ⚡",
+    accuracy: "High ✅",
+    support: "24/7 💬",
+    bestFor: "Students & Developers",
+  },
+  {
+    name: "GPT-4",
+    pricing: "$20/mo",
+    speed: "Fast",
+    accuracy: "Very High",
+    support: "Limited",
+    bestFor: "Advanced users",
+  },
+  {
+    name: "Claude 3",
+    pricing: "Free / Paid",
+    speed: "Moderate",
+    accuracy: "High",
+    support: "Basic",
+    bestFor: "Writers",
+  },
+  {
+    name: "Gemini",
+    pricing: "Free",
+    speed: "Fast",
+    accuracy: "Medium",
+    support: "Google Help",
+    bestFor: "General Use",
+  },
+];
+
 export const BannerContent = [
   {
     title: "Facebook",

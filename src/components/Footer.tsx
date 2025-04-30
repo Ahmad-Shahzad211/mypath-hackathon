@@ -13,7 +13,8 @@ export default function Footer() {
   if (path.includes("mp")) return null
 
   return (
-    <footer className="bg-gradient-to-t from-dark-logo-primary-gradient to-dark-logo-primary md:mx-7 rounded-md text-white mt-16 md:mb-5 mb-0">
+    <footer className="bg-gradient-to-t from-dark-logo-primary-gradient to-dark-logo-primary md:mx-7 rounded-md text-white mt-16 md:mb-5 mb-0 " 
+      style={{marginTop: "10rem"}}>
       <div className="relative bottom-20">
         <SocialCard />
       </div>

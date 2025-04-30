@@ -1,9 +1,11 @@
 import HomeHero from "@/components/ui/HomeHero";
 // import Affilation from "../components/Affilation";
-import MeetOurTeam from "../components/MeetOurTeam";
 import About from "../components/About";
 import Features from "@/components/ui/Features";
 import FounderMessage from "@/components/FounderMessage";
+import TestimonialCarousel from "@/components/testimonials";
+import PromptComparisonCarousel from "@/components/prompts";
+// import TeamPage from "@/components/pages/team";
 
 export default function Home() {
   return (
@@ -11,9 +13,11 @@ export default function Home() {
       <HomeHero />
       {/* <Affilation /> */}
       <Features />
-      {/* <About /> */}
+      <About />
+      <TestimonialCarousel/>
+      <PromptComparisonCarousel/>
       <FounderMessage />
-      {/* <MeetOurTeam /> */}
+      {/* <TeamPage /> */}
     </>
   );
 }

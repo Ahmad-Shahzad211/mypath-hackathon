@@ -22,20 +22,20 @@ const About = () => {
             {AboutContent.featureTitle}
           </div>
 
-          <div className="text-[48px] font-semibold text-black dark:text-white tracking-[-1px] leading-[58px] mt-3 text-center sm:text-left">
+          <div className="text-[48px] font-semibold text-black dark:text-dark tracking-[-1px] leading-[58px] mt-3 text-center sm:text-left">
             {AboutContent.mainHeading}
           </div>
 
-          <div className="text-[20px] font-light text-black dark:text-white mt-4 font-promixa text-center sm:text-left">
+          <div className="text-[20px] font-light text-black dark:text-dark mt-4 font-promixa text-center sm:text-left">
             {AboutContent.subHeading}
           </div>
 
           {/* Uncomment if you want the button */}
-          {/* 
-          <button className="mt-4 bg-[#141219] text-black border-2 border-[#7286FF] text-base leading-6 w-40 flex justify-center items-center py-3 px-5 rounded-full font-bold cursor-pointer transition-all duration-300 ease-in-out hover:bg-[#7286FF] hover:text-[#141219] font-promixa">
+          
+          <button className="mt-4 bg-[#141219] text-white border-2 border-[#7286FF] text-base leading-6 w-40 flex justify-center items-center py-3 px-5 rounded-full font-bold cursor-pointer transition-all duration-300 ease-in-out hover:bg-[#7286FF] hover:text-[#141219] font-promixa">
             {AboutContent.buttonText}
           </button>
-          */}
+         
         </div>
       </div>
     </div>

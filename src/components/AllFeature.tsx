@@ -9,11 +9,11 @@ const AllFeature = () => {
     <Box sx={styles.container}>
       <Container maxWidth="lg">
         <Box>
-          <div className="text-[14px] font-normal text-black dark:text-white tracking-[4px] uppercase leading-[20px] text-left font-promixa">
+          <div className="text-[14px] font-normal text-black dark:text-black tracking-[4px] uppercase leading-[20px] text-left font-promixa">
             {featureContent.featureTitle}
           </div>
 
-          <div className="text-[48px] font-semibold text-black dark:text-white tracking-[-1px] leading-[58px] mt-3 text-left">
+          <div className="text-[48px] font-semibold text-black dark:text-black tracking-[-1px] leading-[58px] mt-3 text-left">
             {featureContent.mainHeading}
           </div>
 
